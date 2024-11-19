@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#bodie {
+  /* background-color: #8bc6ec; */
+  height: 100vh;
+  width : 100vw;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+  
+
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container{
+    background: #C9D6FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height : 540px;
+    width : 380px;
+    border-radius: 7%;
+    border: 4px solid rgb(120, 120, 214);
+    box-shadow: 7px 7px 20px rgb(65, 104, 131);
+
+}
+.title{
+    /* background-color: rgba(79, 79, 250, 0.884); */
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.screenContainer{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.screen{
+    border-radius: 7%;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    height: 10rem;
+    width : 18rem;
+    background-color: rgba(79, 79, 250, 0.884);
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
+    margin:auto;    
+}
+button{
+    box-shadow: 1px 2px 4px 1px black;
+    outline: none;
+}
+button:hover{
+    background-color: rgba(79, 79, 250, 0.11);
+}
+
+button:active{
+    box-shadow: 1px 1px 0px 3px blue;
+    transform: translateY(2.5px);
+    
+}
+.hexBtn:active{
+    box-shadow: 1px 1px 0px 1.5px blue;
+    transform : translate(4.5rem, -0.4rem);
+}
+
+.rgbBtn:active{
+    box-shadow: 1px 1px 0px 1.5px blue;
+    transform: translate(-4.5rem, -1.8rem);
+ }
+
+ .generateRgbBtn:active{
+    box-shadow: 1px 1px 0px 1.5px blue;
+    transform: translate(-4.5rem, -0.8rem);
+ }
+ .generateHexBtn:active{
+    box-shadow: 1px 1px 0px 1.5px blue;
+    transform: translate(4.5rem, -6.5rem);
+ }
+.hexBtn{
+    font-size: 20px;
+    transform: translate(4.5rem, -0.5rem);
+    border: none;
+    border-radius: 10%;
+    height: 1.5rem;
+    cursor: pointer;
+    width : 8.1rem;
+    font-size: 0.8rem;
+    background-color: rgba(79, 79, 250, 0.349);
+    color : black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.rgbBtn{
+    font-size: 20px;
+    transform: translate(-4.5rem, -2rem);
+    cursor: pointer;
+    border-radius: 10%;
+    border: none;
+    height: 1.5rem;
+    width : 8.1rem;
+    font-size: 0.8rem;
+    background-color: rgba(79, 79, 250, 0.349);
+    color : black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.generateRgbBtn{
+    transform: translate(-4.5rem, -1.1rem);
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    border-radius: 10%;
+    height: 4.5rem;
+    width : 8.1rem;
+    font-size: 1.4rem;
+    margin: 10px;
+    background-color: rgba(79, 79, 250, 0.349);
+    color : black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.generateHexBtn{
+    transform: translate(4.5rem, -6.8rem);
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    border-radius: 10%;
+    height: 4.5rem;
+    width : 8.1rem;
+    font-size: 1.4rem;
+    margin: 10px;
+    background-color: rgba(79, 79, 250, 0.349);
+    color : black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.darkModeBtn{
+    font-size: 20px;
+        border: none;
+        translate: 0px -40px;
+        border-radius: 50%;
+        height: 2.5rem;
+        width : 5.1rem;
+        font-size: 0.8rem;
+        background-color: rgba(79, 79, 250, 0.349);
+        color : black;
+        cursor: pointer;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+.footer{
+    text-align: center;
+    translate: 0px -28px;
+    font-size: 0.6rem;
+}
+
+.screenText{
+   font-size: 28px;
+   border-radius: 7px;
+   background-color: #ffffffc0;
+   padding: 0.3rem;
+}
+/* .text{
+color: #E2E2E2;
+} */
